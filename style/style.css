@@ -73,10 +73,20 @@ nav ul li a{
 
 .dark-2{
     color: #474747;
+       
 }
 .dark-3{
     color: #757575;
     font-size: 18px;
+}
+
+.my-text{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.text-center{
+    text-align: center;
 }
 
 .banner{
@@ -120,8 +130,70 @@ main{
     justify-content: space-between;
     margin-top: 28px;
 }
-.text-find{
+ .text-find{
+    color: #474747;
     font-size: 20px;
-    /* font-weight: 600px; */
+    font-weight: bold;
+} 
+
+.skill-container{
+    display: flex;
+    justify-content: space-between;
 }
+.skill-item{
+    border: 2px solid white;
+    box-shadow: #757575 2px 5px 5px 5px;
+    /* margin-left: 24px ;
+    margin-top: 50px; */
+    margin: 50px 12px;
+    border-radius: 5px;
+    width: 265px;
+    padding: 30px;
+}
+.summary{
+  margin-top: 130px;  
+}
+
+.summary-item{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 90px;
+    margin-bottom: 50px;
+   
+}
+
+.master{
+    width: 511px;
+    height: 175px;
+    border-bottom: 2px solid #c9c1c1;
+    /* box-shadow:  1px 5px 2px; */
+}
+ .btn-cv{
+    margin-bottom: 110px;
+  
+} 
+
+footer{
+    display: flex;
+    gap: 117px;
+    padding: 130px 230px;
+    /* padding-top: 130px; */
+}
+.connect{
+    padding-bottom: 247px;
+}
+
+input[type="text"],input[type="email"], textarea{
+    height: 64px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+border: none;
+
+}
+
+
+
 
